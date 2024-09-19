@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Estlos da Página -->
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/header.css">
+    <link rel="stylesheet" href="src/style/home.css">
+    <link rel="stylesheet" href="src/style/menu.css">
+    <link rel="stylesheet" href="src/style/testimonials.css">
+    
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Humm_Burguer || Peça Agora</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+        
+                    <img src="src/img/logo01.svg" width="100px" height="100px" alt="">         
+            
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">
+                        Cardápio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">
+                        Avaliações
+                    </a>
+                </li>
+
+            </ul>
+            
+            <button class="btn_default">
+                Peça Aqui
+            </button>
+                        
+            <button id="btn_mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            
+        </nav>
+        
+        <div id="menu_mobile">
+            <ul id="mobile-nav-list">
+                <li class="nav-item active">
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">
+                        Cardápio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">
+                        Avaliações
+                    </a>
+                </li>
+            </ul>
+
+            <button class="btn_default">
+                Peça Aqui
+            </button>            
+        
+        </div>
+    </header>
+
+    <main id="container">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta"> 
+                <h1 class="title">
+                    O sabor vai até <span>Você</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ullam id, aut magni, nisi libero odio sit commodi nesciunt.
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn_default">
+                        Ver Cardápio
+                    </a>
+                    <a href="tel:+5571915975654" id="phone_button">
+                        
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (71) 98118-4846
+                    </a>
+                </div>
+                <div class="buttons-social-media">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook">
+
+                        </i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="banner">
+                <img src="src/img/img_topo_hamburguer.png" alt="">
+
+            </div>
+        </section>
+        
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            <div id="dishes">
+                
+                <div class="dish">
+                    
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/img/hamburguer_fn2.png" width="150px" height="150px" alt="">
+                    
+                    <h3 class="dish-title"> Lorem  Ipsum</h3>
+                    
+                    <p class="dish-description"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (+500) </span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 29,99</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/img/img_cardapio_hamburguer 3.png" width="150px" height="150px" alt="">
+                    
+                    <h3 class="dish-title"> Lorem  Ipsum</h3>
+                    
+                    <p class="dish-description"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (+437) </span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 27,99</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/img/img_cardapio_hamburguer 2.png" width="150px" height="150px" alt="">
+                    
+                    <h3 class="dish-title"> Lorem  Ipsum</h3>
+                    
+                    <p class="dish-description"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (+278) </span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 51,99</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <img src="src/img/img_cardapio_hamburguer fn.png" width="150px" height="150px" alt="">
+                    
+                    <h3 class="dish-title"> Lorem  Ipsum</h3>
+                    
+                    <p class="dish-description"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span> (+600) </span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 58,99</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/img/img_chef.png" id="testimonials_chef">
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/img_avatar.png"  class="feedback-avatar">
+                        <div class="feedback-content">
+                            <p>
+                                Fulano de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p> 
+                                <q>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis voluptatum, similique sit facere ipsa obcaecati voluptas explicabo odio voluptatem ab tempore tenetur necessitatibus deleniti optio doloremque sapiente. Fugiat, repellat.
+                                </q'>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="src/img/img_avatar.png"  class="feedback-avatar">
+                            <div class="feedback-content">
+                                <p>
+                                    Fulano de tal
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p> 
+                                    <q>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis voluptatum, similique sit facere ipsa obcaecati voluptas explicabo odio voluptatem ab tempore tenetur necessitatibus deleniti optio doloremque sapiente. Fugiat, repellat.
+                                    </q'>
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 Rafael Santos
+            </span>
+
+            <div class="buttons-social-media">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook">
+
+                    </i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
