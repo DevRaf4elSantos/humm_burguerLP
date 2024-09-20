@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "qtdEstrelas" : 5,
+        "img" : "../img/hamburguer_fn2.png"
+    },
+    {
+        "id" : 2,
+        "qtdEstrelas" : 4,
+        "img" : "../img/.png"
+    }
+]
